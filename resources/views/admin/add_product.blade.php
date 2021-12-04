@@ -19,6 +19,23 @@
                                     {{csrf_field()}}
                                     <div class="form-group">
                                         <label for="exampleInputEmail1">Tên sản phẩm</label>
+                                        <input type="text" name="product_name" class="form-control"  placeholder="Tên sản phẩm">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1">Mã hãng</label>
+                                        <input type="text" name="product_type" class="form-control"  placeholder="Mã hãng">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Giá trước</label>
+                                        <input type="text" name="product_price" class="form-control" id="" placeholder="Giá sản phẩm">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Giá sau</label>
+                                        <input type="" name="product_discount" class="form-control" id="" placeholder="Giá khuyến mãi">
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Số lượng:</label>
+                                        <input type="" name="product_sl" class="form-control" id="" placeholder="18">
                                         <input type="text" name="category_product_name" class="form-control"  placeholder="Tên sản phẩm">
                                     </div>
                                     <div class="form-group">
@@ -39,6 +56,7 @@
                                     </div>
                                     <div class="form-group">
                                         <label>Link ảnh</label>
+                                        <input type="text" name="product_img" class="form-control" id="" placeholder="Link ảnh">
                                         <input type="text" name="category_product_img" class="form-control" id="" placeholder="Link ảnh">
                                     </div>
                                     <div class="form-group">
@@ -48,6 +66,7 @@
                                             <option value="0">Ẩn</option>
                                         </select>
                                     </div>
+                                    <button type="submit" name="add_product" class="btn btn-info">Thêm sản phẩm</button>
                                     <button type="submit" name="add_category_product" class="btn btn-info">Thêm sản phẩm</button>
                                 </form>
                             </div>
